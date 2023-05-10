@@ -1,6 +1,6 @@
 'use client'
 
-import request from "@/utils/request";
+import request from "@/utils/requests";
 import { useRouter } from "next/navigation";
 export default function Navbar() {
   const router = useRouter();
