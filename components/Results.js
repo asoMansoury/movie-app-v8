@@ -1,12 +1,12 @@
+import Card from "./Card";
+
 export default function Results({results}) {
 
   return (
     <div>
-        <h1>
             {results.map(result =>(
-              <h1>{result.title}</h1>
+              <Card key={result.id} result={result}></Card>
             ))}
-        </h1>
     </div>
   )
 }
